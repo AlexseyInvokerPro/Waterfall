@@ -14,6 +14,8 @@
 		6934D08426B9A78F0003CFB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6934D08326B9A78F0003CFB3 /* Assets.xcassets */; };
 		6934D08726B9A78F0003CFB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6934D08526B9A78F0003CFB3 /* LaunchScreen.storyboard */; };
 		6934D09026B9AAB60003CFB3 /* CHTCollectionViewWaterfallLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 6934D08F26B9AAB60003CFB3 /* CHTCollectionViewWaterfallLayout */; };
+		6934D09226B9AC2A0003CFB3 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6934D09126B9AC2A0003CFB3 /* ImageCollectionViewCell.swift */; };
+		6934D09426B9B15C0003CFB3 /* ImageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6934D09326B9B15C0003CFB3 /* ImageModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		6934D08326B9A78F0003CFB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6934D08626B9A78F0003CFB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6934D08826B9A78F0003CFB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6934D09126B9AC2A0003CFB3 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		6934D09326B9B15C0003CFB3 /* ImageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +65,12 @@
 				6934D07A26B9A78D0003CFB3 /* AppDelegate.swift */,
 				6934D07C26B9A78D0003CFB3 /* SceneDelegate.swift */,
 				6934D07E26B9A78D0003CFB3 /* ViewController.swift */,
+				6934D09326B9B15C0003CFB3 /* ImageModels.swift */,
 				6934D08026B9A78D0003CFB3 /* Main.storyboard */,
 				6934D08326B9A78F0003CFB3 /* Assets.xcassets */,
 				6934D08526B9A78F0003CFB3 /* LaunchScreen.storyboard */,
 				6934D08826B9A78F0003CFB3 /* Info.plist */,
+				6934D09126B9AC2A0003CFB3 /* ImageCollectionViewCell.swift */,
 			);
 			path = WaterFall;
 			sourceTree = "<group>";
@@ -147,7 +153,9 @@
 			files = (
 				6934D07F26B9A78D0003CFB3 /* ViewController.swift in Sources */,
 				6934D07B26B9A78D0003CFB3 /* AppDelegate.swift in Sources */,
+				6934D09226B9AC2A0003CFB3 /* ImageCollectionViewCell.swift in Sources */,
 				6934D07D26B9A78D0003CFB3 /* SceneDelegate.swift in Sources */,
+				6934D09426B9B15C0003CFB3 /* ImageModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
